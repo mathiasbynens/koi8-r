@@ -2,7 +2,7 @@
 
 _koi8-r_ is a robust JavaScript implementation of [the koi8-r character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#koi8-r).
 
-This encoding is known under the following names: cskoi8r, koi, koi8, koi8-r, koi8_r, and koi8_r.
+This encoding is known under the following names: cskoi8r, koi, koi8, koi8-r, and koi8_r.
 
 ## Installation
 

@@ -24,7 +24,7 @@
 
 	// The `koi8r` object to test
 	var koi8r = root.koi8r || (root.koi8r = (
-		koi8r = load('../koi8r.js') || root.koi8r,
+		koi8r = load('../koi8-r.js') || root.koi8r,
 		koi8r = koi8r.koi8r || koi8r
 	));
 

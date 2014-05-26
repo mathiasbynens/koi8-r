@@ -1,4 +1,4 @@
-# koi8-r [![Build status](https://travis-ci.org/mathiasbynens/koi8-r.svg?branch=master)](https://travis-ci.org/mathiasbynens/koi8-r) [![Dependency status](https://gemnasium.com/mathiasbynens/koi8-r.svg)](https://gemnasium.com/mathiasbynens/koi8-r)
+# koi8-r [![Build status](https://travis-ci.org/mathiasbynens/koi8-r.svg?branch=master)](https://travis-ci.org/mathiasbynens/koi8-r) [![Code coverage status](http://img.shields.io/coveralls/mathiasbynens/koi8-r/master.svg)](https://coveralls.io/r/mathiasbynens/koi8-r) [![Dependency status](https://gemnasium.com/mathiasbynens/koi8-r.svg)](https://gemnasium.com/mathiasbynens/koi8-r)
 
 _koi8-r_ is a robust JavaScript implementation of [the koi8-r character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#koi8-r).
 

@@ -1,4 +1,4 @@
-/*! http://mths.be/koi8-r v<%= version %> by @mathias | MIT license */
+/*! https://mths.be/koi8-r v<%= version %> by @mathias | MIT license */
 ;(function(root) {
 
 	// Detect free variables `exports`.

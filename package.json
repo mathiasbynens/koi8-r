@@ -2,7 +2,7 @@
 	"name": "koi8-r",
 	"version": "0.1.2",
 	"description": "A robust koi8-r encoder/decoder written in JavaScript.",
-	"homepage": "http://mths.be/koi8-r",
+	"homepage": "https://mths.be/koi8-r",
 	"main": "koi8-r.js",
 	"keywords": [
 		"codec",
@@ -18,43 +18,33 @@
 		"koi8-r",
 		"koi8_r"
 	],
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://mths.be/mit"
-		}
-	],
+	"license": "MIT",
 	"author": {
 		"name": "Mathias Bynens",
-		"url": "http://mathiasbynens.be/"
+		"url": "https://mathiasbynens.be/"
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/mathiasbynens/koi8-r.git"
 	},
-	"bugs": {
-		"url": "https://github.com/mathiasbynens/koi8-r/issues"
-	},
+	"bugs": "https://github.com/mathiasbynens/koi8-r/issues",
 	"files": [
 		"LICENSE-MIT.txt",
 		"koi8-r.js"
 	],
-	"directories": {
-		"test": "tests"
-	},
 	"scripts": {
 		"test": "node tests/tests.js"
 	},
 	"devDependencies": {
-		"coveralls": "^2.10.0",
+		"coveralls": "^2.11.1",
 		"grunt": "^0.4.5",
-		"grunt-shell": "^0.7.0",
+		"grunt-shell": "^1.1.1",
 		"grunt-template": "^0.2.3",
-		"istanbul": "^0.2.10",
-		"jsesc": "^0.4.3",
+		"istanbul": "^0.3.0",
+		"jsesc": "^0.5.0",
 		"qunit-extras": "^1.2.0",
 		"qunitjs": "~1.11.0",
-		"requirejs": "^2.1.11",
-		"string.fromcodepoint": "^0.2.0"
+		"requirejs": "^2.1.14",
+		"string.fromcodepoint": "^0.2.1"
 	}
 }

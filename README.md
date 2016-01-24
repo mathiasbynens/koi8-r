@@ -1,6 +1,6 @@
 # koi8-r [![Build status](https://travis-ci.org/mathiasbynens/koi8-r.svg?branch=master)](https://travis-ci.org/mathiasbynens/koi8-r) [![Code coverage status](https://coveralls.io/repos/mathiasbynens/koi8-r/badge.svg)](https://coveralls.io/r/mathiasbynens/koi8-r) [![Dependency status](https://gemnasium.com/mathiasbynens/koi8-r.svg)](https://gemnasium.com/mathiasbynens/koi8-r)
 
-_koi8-r_ is a robust JavaScript implementation of [the koi8-r character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#koi8-r).
+_koi8-r_ is a robust JavaScript implementation of [the koi8-r character encoding as defined by the Encoding Standard](https://encoding.spec.whatwg.org/#koi8-r).
 
 This encoding is known under the following names: cskoi8r, koi, koi8, koi8-r, and koi8_r.
 
@@ -36,7 +36,7 @@ In [Node.js](https://nodejs.org/), [io.js](https://iojs.org/), [Narwhal](http://
 var koi8r = require('koi8-r');
 ```
 
-In [Rhino](http://www.mozilla.org/rhino/):
+In [Rhino](https://www.mozilla.org/rhino/):
 
 ```js
 load('koi8r.js');
@@ -66,7 +66,7 @@ A string representing the semantic version number.
 
 ### `koi8r.labels`
 
-An array of strings, each representing a [label](http://encoding.spec.whatwg.org/#label) for this encoding.
+An array of strings, each representing a [label](https://encoding.spec.whatwg.org/#label) for this encoding.
 
 ### `koi8r.encode(input, options)`
 
@@ -76,7 +76,7 @@ This function takes a plain text string (the `input` parameter) and encodes it a
 var encodedData = koi8r.encode(text);
 ```
 
-The optional `options` object and its `mode` property can be used to set the [error mode](http://encoding.spec.whatwg.org/#error-mode). For encoding, the error mode can be `'fatal'` (the default) or `'html'`.
+The optional `options` object and its `mode` property can be used to set the [error mode](https://encoding.spec.whatwg.org/#error-mode). For encoding, the error mode can be `'fatal'` (the default) or `'html'`.
 
 ```js
 var encodedData = koi8r.encode(text, {
@@ -94,7 +94,7 @@ This function takes a byte string (the `input` parameter) and decodes it accordi
 var text = koi8r.decode(encodedData);
 ```
 
-The optional `options` object and its `mode` property can be used to set the [error mode](http://encoding.spec.whatwg.org/#error-mode). For decoding, the error mode can be `'replacement'` (the default) or `'fatal'`.
+The optional `options` object and its `mode` property can be used to set the [error mode](https://encoding.spec.whatwg.org/#error-mode). For decoding, the error mode can be `'replacement'` (the default) or `'fatal'`.
 
 ```js
 var text = koi8r.decode(encodedData, {
@@ -106,7 +106,7 @@ var text = koi8r.decode(encodedData, {
 
 ## Support
 
-_koi8-r_ is designed to work in at least Node.js v0.10.0, io.js v1.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, and Internet Explorer.
+_koi8-r_ is designed to work in at least Node.js v0.10.0, io.js v1.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, Edge, and Internet Explorer.
 
 ## Unit tests & code coverage
 

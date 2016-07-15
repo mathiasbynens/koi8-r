@@ -33,8 +33,9 @@
 		"koi8-r.js"
 	],
 	"scripts": {
-		"test": "node tests/tests.js",
-		"build": "node scripts/transform-data.js"
+		"download": "curl https://encoding.spec.whatwg.org/index-koi8-r.txt > data/index.txt",
+		"build": "node scripts/transform-data.js",
+		"test": "node tests/tests.js"
 	},
 	"devDependencies": {
 		"coveralls": "^2.11.6",

@@ -1,4 +1,4 @@
-/*! https://mths.be/koi8-r v0.1.2 by @mathias | MIT license */
+/*! https://mths.be/koi8-r v1.0.0 by @mathias | MIT license */
 ;(function(root) {
 
 	// Detect free variables `exports`.
@@ -122,7 +122,7 @@
 			'koi8-r',
 			'koi8_r'
 		],
-		'version': '0.1.2'
+		'version': '1.0.0'
 	};
 
 	// Some AMD build optimizers, like r.js, check for specific condition patterns

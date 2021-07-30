@@ -1,4 +1,4 @@
-# koi8-r [![koi8-r on npm](https://img.shields.io/npm/v/koi8-r)](https://www.npmjs.com/package/koi8-r)
+# koi8-r [![Build status](https://github.com/mathiasbynens/koi8-r/workflows/run-checks/badge.svg)](https://github.com/mathiasbynens/koi8-r/actions?query=workflow%3Arun-checks) [![koi8-r on npm](https://img.shields.io/npm/v/koi8-r)](https://www.npmjs.com/package/koi8-r)
 
 _koi8-r_ is a robust JavaScript implementation of [the koi8-r character encoding as defined by the Encoding Standard](https://encoding.spec.whatwg.org/#koi8-r).
 

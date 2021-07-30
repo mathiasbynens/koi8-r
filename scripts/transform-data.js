@@ -56,17 +56,17 @@ fs.writeFileSync(
 );
 
 // tests/tests.src.js → tests/tests.js
-const TEST_TEMPLATE = fs.readFileSync('./tests/tests.src.js', 'utf8');
+const TEST_TEMPLATE = fs.readFileSync('./tests/tests.src.mjs', 'utf8');
 const createTest = template(TEST_TEMPLATE, {
 	interpolate: /<\%=([\s\S]+?)%\>/g,
 });
 const testCode = createTest(require('./export-data.js'));
-fs.writeFileSync('./tests/tests.js', testCode);
+fs.writeFileSync('./tests/tests.mjs', testCode);
 
-// src/koi8-r.src.js -> koi8-r.js
-const LIB_TEMPLATE = fs.readFileSync('./src/koi8-r.src.js', 'utf8');
+// src/koi8-r.src.mjs -> koi8-r.mjs
+const LIB_TEMPLATE = fs.readFileSync('./src/koi8-r.src.mjs', 'utf8');
 const createLib = template(LIB_TEMPLATE, {
 	interpolate: /<\%=([\s\S]+?)%\>/g,
 });
 const libCode = createLib(require('./export-data.js'));
-fs.writeFileSync('./koi8-r.js', libCode);
+fs.writeFileSync('./koi8-r.mjs', libCode);

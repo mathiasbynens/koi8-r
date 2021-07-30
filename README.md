@@ -12,23 +12,15 @@ Via [npm](https://www.npmjs.com/):
 npm install koi8-r
 ```
 
-In a browser:
-
-```html
-<script src="koi8-r.js"></script>
-```
-
-In [Node.js](https://nodejs.org/):
+In a browser or in [Node.js](https://nodejs.org/):
 
 ```js
-const koi8r = require('koi8-r');
+import {encode, decode, labels} from 'koi8-r';
+// or…
+import * as koi8r from 'koi8-r';
 ```
 
 ## API
-
-### `koi8r.version`
-
-A string representing the semantic version number.
 
 ### `koi8r.labels`
 

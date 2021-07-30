@@ -3,7 +3,7 @@
 	"version": "1.1.0",
 	"description": "A robust koi8-r encoder/decoder written in JavaScript.",
 	"homepage": "https://mths.be/koi8-r",
-	"main": "koi8-r.js",
+	"exports": "koi8-r.mjs",
 	"keywords": [
 		"codec",
 		"decoder",
@@ -30,13 +30,13 @@
 	"bugs": "https://github.com/mathiasbynens/koi8-r/issues",
 	"files": [
 		"LICENSE-MIT.txt",
-		"koi8-r.js"
+		"koi8-r.mjs"
 	],
 	"scripts": {
 		"download": "curl https://encoding.spec.whatwg.org/index-koi8-r.txt > data/index.txt",
 		"build": "node scripts/transform-data.js",
-		"test": "node tests/tests.js",
-		"cover": "istanbul cover --report html --verbose --dir coverage tests/tests.js"
+		"test": "node tests/tests.mjs",
+		"cover": "istanbul cover --report html --verbose --dir coverage tests/tests.mjs"
 	},
 	"devDependencies": {
 		"istanbul": "^0.4.2",

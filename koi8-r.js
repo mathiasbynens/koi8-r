@@ -1,4 +1,4 @@
-/*! https://mths.be/koi8-r v1.0.2 by @mathias | MIT license */
+/*! https://mths.be/koi8-r v1.1.0 by @mathias | MIT license */
 ;(function() {
 
 	const stringFromCharCode = String.fromCharCode;
@@ -98,7 +98,7 @@
 			'koi8-r',
 			'koi8_r'
 		],
-		version: '1.0.2',
+		version: '1.1.0',
 	};
 
 	module.exports = koi8r;

@@ -1,6 +1,6 @@
 {
 	"name": "koi8-r",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "A robust koi8-r encoder/decoder written in JavaScript.",
 	"homepage": "https://mths.be/koi8-r",
 	"exports": "./koi8-r.mjs",

@@ -50,6 +50,11 @@ assert.throws(
 	Error,
 	'Mode names are case-insensitive'
 );
+assert.deepStrictEqual(
+	koi8r.encode('\uFFFF', { mode: 'replacement' }),
+	new Uint16Array([0xFFFD]),
+	'Encoding a code point that is invalid for this encoding results in U+FFFD in `replacement` mode'
+);
 
 console.log('Testing `koi8r.decode`…');
 assert.deepStrictEqual(

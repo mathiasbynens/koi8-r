@@ -30,8 +30,10 @@
 	"bugs": "https://github.com/mathiasbynens/koi8-r/issues",
 	"files": [
 		"LICENSE-MIT.txt",
-		"koi8-r.mjs"
+		"koi8-r.mjs",
+		"koi8-r.d.ts"
 	],
+	"types": "koi8-r.d.ts",
 	"scripts": {
 		"download": "curl https://encoding.spec.whatwg.org/index-koi8-r.txt > data/index.txt",
 		"build": "node scripts/transform-data.js",

@@ -1,4 +1,4 @@
-/*! https://mths.be/koi8-r v3.0.2 by @mathias | MIT license */
+/*! https://mths.be/koi8-r v3.0.3 by @mathias | MIT license */
 
 const stringFromCharCode = String.fromCharCode;
 
